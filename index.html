@@ -7,64 +7,85 @@
     <title>Quiz App</title>
   </head>
   <body>
-    <header>
+    <header class="title">
       <h1>Quiz App</h1>
     </header>
     <main>
-      <ul>
+      <ul class="card-list" role="list">
         <li>
-          <article>
+          <article class="card">
             <h2>Which property flips the main axis in flexbox?</h2>
-            <button>Show Answer</button>
+            <button class="card__answer-button">Show Answer</button>
             <p>flex-direction</p>
-            <ul>
-              <li>html</li>
-              <li>css</li>
-              <li>flexbox</li>
+            <ul class="tag-list">
+              <li class="tag-list__tag">html</li>
+              <li class="tag-list__tag">css</li>
+              <li class="tag-list__tag">flexbox</li>
             </ul>
-            <button>
+            <button class="card__bookmark">
               <img src="./assets/bookmark-outlined.svg" alt="" />
             </button>
           </article>
         </li>
         <li>
-          <article>
+          <article class="card">
             <h2>Which property flips the main axis in flexbox?</h2>
-            <button>Show Answer</button>
+            <button class="card__answer-button">Show Answer</button>
             <p>flex-direction</p>
-            <ul>
-              <li>html</li>
-              <li>css</li>
-              <li>flexbox</li>
+            <ul class="tag-list">
+              <li class="tag-list__tag">html</li>
+              <li class="tag-list__tag">css</li>
+              <li class="tag-list__tag">flexbox</li>
             </ul>
-            <button>
+            <button class="card__bookmark">
               <img src="./assets/bookmark-outlined.svg" alt="" />
             </button>
           </article>
         </li>
         <li>
-          <article>
+          <article class="card">
             <h2>Which property flips the main axis in flexbox?</h2>
-            <button>Show Answer</button>
+            <button class="card__answer-button">Show Answer</button>
             <p>flex-direction</p>
-            <ul>
-              <li>html</li>
-              <li>css</li>
-              <li>flexbox</li>
+            <ul class="tag-list">
+              <li class="tag-list__tag">html</li>
+              <li class="tag-list__tag">css</li>
+              <li class="tag-list__tag">flexbox</li>
             </ul>
-            <button>
-              <img src="./assets/bookmark-filled.svg" alt="" />
+            <button class="card__bookmark">
+              <img src="./assets/bookmark-outlined.svg" alt="" />
+            </button>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <h2>Which property flips the main axis in flexbox?</h2>
+            <button class="card__answer-button">Show Answer</button>
+            <p>flex-direction</p>
+            <ul class="tag-list">
+              <li class="tag-list__tag">html</li>
+              <li class="tag-list__tag">css</li>
+              <li class="tag-list__tag">flexbox</li>
+            </ul>
+            <button class="card__bookmark">
+              <img src="./assets/bookmark-outlined.svg" alt="" />
             </button>
           </article>
         </li>
       </ul>
     </main>
-    <footer>
+    <footer class="navigation">
       <nav>
-        <ul>
-          <li><a href="./index.html">home</a></li>
-          <li><a href="./bookmarks.html">bookmarks</a></li>
-          <li><a href="./profile.html">profile</a></li>
+        <ul class="navigation__menu">
+          <li class="navigation__item navigation__item--active">
+            <a href="./index.html" class="navigation__link">home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./bookmarks.html" class="navigation__link">bookmarks</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./profile.html" class="navigation__link">profile</a>
+          </li>
         </ul>
       </nav>
     </footer>
